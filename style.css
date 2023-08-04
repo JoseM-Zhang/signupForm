@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Norse';
+    src: url(./Norse-Bold.otf);
+}
+body {
+    display: flex;
+    margin: 0;
+    overflow-y: hidden;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.background-image {
+    flex-grow: 1;
+    position: relative;
+    width: 40vw;
+    min-width: 410px;
+    height: 100vh;
+    background: url(./cai-fang-YNzeZ6Y6iPU-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+} 
+
+.logo-img {
+    background:rgba(0, 0, 0, 0.404);
+    position: relative;
+    top: -10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Norse';
+    font-size: 80px;
+    color: white;
+}
+#logo {
+    max-height: 20vh;
+}
+
+.side-text-right {
+    background-color: #f9fafb;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    align-content: start;
+    justify-content: center;
+    background-color:snow;
+}
+
+.flavour-text {
+    margin-bottom: 15vh;
+    margin-left: 5vw;
+}
+
+.form-signup {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    padding-bottom: 5vh;
+    margin-bottom: 10vh;
+    background-color: rgb(233, 230, 230);
+    box-shadow: 2px 7px 5px 0px #9194A3;
+}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+}
+
+label {
+    position: relative;
+    display: block;
+}
+
+input:focus {
+    
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.342);
+    
+}
+
+.button-section {
+    margin-left: 5vw;
+}
+
+
+.buttonClass {
+    font-size:15px;
+    font-family:Arial;
+    width:160px;
+    height:45px;
+    border-width:1px;
+    color:#ffffff;
+    border-color:#124d77;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    text-shadow:inset 0px 1px 0px #154682;
+    background:#007dc1;
+  }
+  
+  .buttonClass:hover {
+    background: #0061a7
+  }
+                
